@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <slide android:slideEdge="right">
+        <targets >
+            <target  android:targetId="@id/myCard"></target>
+        </targets>
+    </slide>
+
+    <fade>
+        <targets >
+            <target  android:targetId="@id/toolbar"></target>
+            <target android:targetId="@android:id/statusBarBackground"></target>
+        </targets>
+    </fade>
+    <!--<slide android:slideEdge="right"-->
+        <!--android:duration="600">-->
+        <!---->
+
+        <!--&lt;!&ndash;<targets >&ndash;&gt;-->
+            <!--&lt;!&ndash;<target android:excludeId="@android:id/statusBarBackground"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;<target android:excludeId="@android:id/navigationBarBackground"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;</targets>&ndash;&gt;-->
+    <!--</slide>-->
+</transitionSet>

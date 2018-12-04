@@ -1,0 +1,96 @@
+<resources>
+
+
+    <style name="BaseAppTheme" parent="Theme.MaterialComponents.Light">
+        <!-- enable window content transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="colorPrimary">#F5F5F5</item>
+        <item name="colorPrimaryDark">#F0F0F0</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+
+        <!-- specify enter and exit transitions -->
+        <!--<item name="android:windowEnterTransition">@transition/change_image_transform</item>-->
+        <!--<item name="android:windowExitTransition">@transition/change_image_transform</item>-->
+
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item>
+
+        <!-- specify shared element transitions -->
+        <!--<item name="android:windowSharedElementEnterTransition">-->
+            <!--@transition/slide</item>-->
+
+
+        <!--activityOpenEnterAnimation： 设置打开新的Activity并进入新的Activity展示的动画；-->
+
+        <!--activityOpenExitAnimation： 设置打开新的Activity并销毁之前的Activity展示的动画；-->
+
+        <!--activityCloseEnterAnimation： 设置关闭当前Activity进入上一个Activity展示的动画；-->
+
+        <!--activityCloseExitAnimation： 设置关闭当前Activity时展示的动画-->
+
+        <!--<style name="styleActivity" parent="AppTheme">-->
+            <!--<item name="android:windowAnimationStyle">@style/activityStyleAnim</item>-->
+        <!--</style>-->
+
+        <!--<style name="activityStyleAnim">-->
+            <!--<item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>-->
+            <!--<item name="android:activityOpenExitAnimation">@anim/slide_out_right</item>-->
+        <!--</style>-->
+
+    </style>
+    <style name="CalenderViewCustom" parent="Theme.MaterialComponents.Light">
+        <item name="android:textColorPrimary">@color/colorDarkBlueJ</item>
+        <item name="colorAccent">@color/colorDarkGrey</item>
+        <item name="colorPrimary">@color/colorLightBlue</item>
+        <item name="colorPrimaryDark">@color/colorDarkBlueJ</item>
+
+    </style>
+    <style name="Widget.CropImageView" parent="android:Widget">
+        <item name="showThirds">true</item>
+        <item name="showCircle">false</item>
+        <item name="showHandles">always</item>
+        <item name="colorPrimary">#F5F5F5</item>
+        <item name="colorPrimaryDark">#F0F0F0</item>
+    </style>
+
+    <style name="CalenderViewDateCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/colorDarkBlue</item>
+    </style>
+
+    <style name="CalenderViewWeekCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/colorLightBlueJ</item>
+    </style>
+
+
+    <style name="Widget.CalendarView.Custom" parent="android:Widget.CalendarView">
+        <item name="android:focusedMonthDateColor">@color/colorLightBlue</item>
+        <item name="android:weekNumberColor">@color/colorDarkPink</item>
+        <!--<item name="android:weekDayTextAppearance">@style/TextAppearance.Medium</item>-->
+        <!--<item name="android:dateTextAppearance">@style/TextAppearance.Medium</item>-->
+    </style>
+
+    <style name="ClickableImageView">
+        <item name="android:clickable">true</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+    </style>
+
+
+    <style name="TextInputHint">
+
+        <item name="colorControlNormal">@color/colorDarkBlueJ</item>
+        <item name="colorControlActivated">@color/colorDarkBlueJ</item>
+        <item name="android:textColorHint">@color/colorDarkBlueJ</item>
+        <item name="android:textSize">20sp </item>
+        <item name="android:textColor">@color/colorDarkBlueJ</item>
+        <item name="android:maxEms">1</item>
+    </style>
+
+
+
+
+</resources>

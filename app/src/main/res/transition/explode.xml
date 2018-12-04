@@ -1,0 +1,11 @@
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+    <slide android:duration="1000">
+        <!--<targets >-->
+            <!--&lt;!&ndash;表示除了状态栏&ndash;&gt;-->
+            <!--<target android:excludeId="@android:id/statusBarBackground"/>-->
+            <!--表示只针对状态栏-->
+            <!--&lt;!&ndash;<target android:targetId="@android:id/statusBarBackground"/>&ndash;&gt;  </targets>-->
+    </slide>
+    <!--<changeBounds />-->
+    <!--<explode />-->
+</transitionSet>

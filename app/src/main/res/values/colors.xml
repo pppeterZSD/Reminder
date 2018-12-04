@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorLightBlue">#4FC1E9</color>
+    <color name="colorDarkBlue">#3BAFDA</color>
+    <color name="colorLightYellow">#FFCE54</color>
+    <color name="colorDarkYellow">#F6BB42</color>
+    <color name="colorLightGreen">#A0D468</color>
+    <color name="colorDarkGreen">#8CC152</color>
+    <color name="colorLightMint">#48CFAD</color>
+    <color name="colorDarkMint">#37BC9B</color>
+    <color name="colorLightBlueJ">#5D9CEC</color>
+    <color name="colorDarkBlueJ">#4A89DC</color>
+    <color name="colorLightPink">#EC87C0</color>
+    <color name="colorDarkPink">#D770AD</color>
+    <color name="colorLightGrey">#F5F7FA</color>
+    <color name="colorDarkGrey">#E6E9ED</color>
+    <color name="colorVeryLightViolet">#BB86FC</color>
+    <color name="colorLightViolet">#6600EE</color>
+    <color name="colorDarkViolet">#3700B3</color>
+    <color name="colorLightMediumGrey">#CCD1D9</color>
+    <color name="colorDarkMediumGrey">#AAb2BD</color>
+    <color name="colorLightDarkGrey">#656D78</color>
+    <color name="grayIconTint">#727272</color>
+    <color name="colorDarkDarkGrey">#434A54</color>
+    <color name="colorTransparent">#00ffffff</color>
+    <color name="shopAccent">#84ceca</color>
+    <color name="shopSecondary">#727272</color>
+    <color name="shopRatedStar">#F4606c</color>
+    <color name="shopFabRipple">#51b2ac</color>
+
+    <!--<array name="gradientPeriodicClouds">-->
+        <!--<item>@color/gradientPeriodicClouds_c1</item>-->
+        <!--<item>@color/gradientPeriodicClouds_c2</item>-->
+        <!--<item>@color/gradientPeriodicClouds_c3</item>-->
+    <!--</array>-->
+
+    <color name="gradientPeriodicClouds_c1">#ff9a9e</color>
+    <color name="gradientPeriodicClouds_c2">#fad0c4</color>
+    <color name="gradientPeriodicClouds_c3">#f3e5d2</color>
+
+    <color name="gradientCloudy_c3">#f3e5d2</color>
+    <color name="gradientCloudy_c1">#fad0c4</color>
+    <color name="gradientCloudy_c2">#f5efef</color>
+
+
+    <array name="gradientCloudy">
+        <item>@color/gradientCloudy_c2</item>
+        <item>@color/gradientCloudy_c3</item>
+
+        <item>@color/gradientCloudy_c1</item>
+
+
+
+
+    </array>
+
+    <color name="gradientMostlyCloudy_c1">#ecad9e</color>
+    <color name="gradientMostlyCloudy_c2">#e2d1c3</color>
+    <color name="gradientMostlyCloudy_c3">#f3e5d2</color>
+
+    <array name="gradientMostlyCloudy">
+        <item>@color/gradientPeriodicClouds_c1</item>
+        <item>@color/gradientPeriodicClouds_c2</item>
+        <item>@color/gradientPeriodicClouds_c3</item>
+
+    </array>
+
+    <array name="gradientPeriodicClouds">
+        <item>@color/gradientMostlyCloudy_c1</item>
+        <item>@color/gradientMostlyCloudy_c2</item>
+        <item>@color/gradientMostlyCloudy_c3</item>
+    </array>
+
+    <color name="gradientPartlyCloudy_c1">#f3e5d2</color>
+    <color name="gradientPartlyCloudy_c2">#ff9a9e</color>
+    <color name="gradientPartlyCloudy_c3">#fecfef</color>
+
+    <array name="gradientPartlyCloudy">
+        <item>@color/gradientPartlyCloudy_c1</item>
+        <item>@color/gradientPartlyCloudy_c2</item>
+        <item>@color/gradientPartlyCloudy_c3</item>
+    </array>
+
+    <color name="gradientClear_c1">#fda085</color>
+    <color name="gradientClear_c2">#f6d365</color>
+    <color name="gradientClear_c3">#fbed96</color>
+
+    <array name="gradientClear">
+        <item>@color/gradientClear_c1</item>
+        <item>@color/gradientClear_c2</item>
+        <item>@color/gradientClear_c3</item>
+    </array>
+
+
+
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+</resources>
